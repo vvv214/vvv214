@@ -38,23 +38,3 @@ jobs:
           plugin_languages_other: yes
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
-
-      - name: Featured Repositories
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.repositories.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: vvv214
-          base: ""
-          plugin_repositories: yes
-          plugin_repositories_forks: yes
-          plugin_repositories_featured: vvv214/LDP_Protocols, vvv214/codex-connector, vvv214/s25-dataprivacy, vvv214/f23-cybersecprivacy, vvv214/CSrankings, vvv214/mbi
-
-      - name: Full Contribution Calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.calendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: vvv214
-          base: ""
-          plugin_calendar: yes
