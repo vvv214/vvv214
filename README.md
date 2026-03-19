@@ -13,13 +13,3 @@
 </p>
 
 I work on building privacy methods that are not only theoretically sound, but also useful in real deployments. My group focuses on differential privacy, private machine learning, synthetic data, and deployable privacy-preserving systems.
-
-> Theory is the foundation, but deployment is the goal.
-
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub metrics" width="96%">
-</p>
-
-<p align="center">
-  <img src="./metrics.languages.svg" alt="Language activity" width="96%">
-</p>
